@@ -1,0 +1,1020 @@
+[prdd1slzswobj01] Executing task 'multipath'
+[prdd1slzswobj01] run: multipath -ll
+[prdd1slzswobj01] out: [1mmpathbp (35000c500584ff637) dm-66 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:68:0  sdbn 68:16   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:157:0 sdeu 129:96  active ready running
+[prdd1slzswobj01] out: [1mmpathak (35000c50058183967) dm-34 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:36:0  sdaj 66:48   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:96:0  sdcn 69:176  active ready running
+[prdd1slzswobj01] out: [1mmpathr (35000c5005817ef3f) dm-13 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:13:0  sdn  8:208   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:131:0 sddv 71:208  active ready running
+[prdd1slzswobj01] out: [1mmpathbc (35000c500584f7d63) dm-55 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:56:0  sdbc 67:96   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:174:0 sdfk 130:96  active ready running
+[prdd1slzswobj01] out: [1mmpathe (35000c50058182c0b) dm-3 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:3:0   sdd  8:48    active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:121:0 sddl 71:48   active ready running
+[prdd1slzswobj01] out: [1mmpathaw (35000c500584ff43b) dm-44 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:50:0  sdaw 67:0    active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:168:0 sdfe 130:0   active ready running
+[prdd1slzswobj01] out: [1mmpathbo (35000c500584ff073) dm-73 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:71:0  sdbq 68:64   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:159:0 sdew 129:128 active ready running
+[prdd1slzswobj01] out: [1mmpathaj (35000c5005817ee37) dm-35 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:37:0  sdak 66:64   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:97:0  sdco 69:192  active ready running
+[prdd1slzswobj01] out: [1mmpathq (35000c5005818375b) dm-12 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:12:0  sdm  8:192   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:130:0 sddu 71:192  active ready running
+[prdd1slzswobj01] out: [1mmpathcg (35000c500584f77ab) dm-82 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:87:0  sdcg 69:64   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:147:0 sdek 128:192 active ready running
+[prdd1slzswobj01] out: [1mmpathbb (35000c500584f6a07) dm-52 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:55:0  sdbb 67:80   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:173:0 sdfj 130:80  active ready running
+[prdd1slzswobj01] out: [1mmpathd (35000c5005817c8e7) dm-6 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:5:0   sdf  8:80    active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:123:0 sddn 71:80   active ready running
+[prdd1slzswobj01] out: [1mmpathav (35000c500584f827f) dm-49 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:47:0  sdat 66:208  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:165:0 sdfb 129:208 active ready running
+[prdd1slzswobj01] out: [1mmpathbn (35000c500584f8b1b) dm-71 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:67:0  sdbm 68:0    active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:155:0 sdes 129:64  active ready running
+[prdd1slzswobj01] out: [1mmpathai (35000c50058181fbf) dm-33 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:34:0  sdah 66:16   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:94:0  sdcl 69:144  active ready running
+[prdd1slzswobj01] out: [1mmpathp (35000c5005817f1e7) dm-19 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:17:0  sdr  65:16   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:107:0 sdcx 70:80   active ready running
+[prdd1slzswobj01] out: [1mmpathcf (35000c500584f7df7) dm-81 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:85:0  sdce 69:32   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:145:0 sdei 128:160 active ready running
+[prdd1slzswobj01] out: [1mmpathba (35000c500584f6f17) dm-53 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:54:0  sdba 67:64   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:172:0 sdfi 130:64  active ready running
+[prdd1slzswobj01] out: [1mmpathc (35000c5005817a497) dm-4 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:4:0   sde  8:64    active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:122:0 sddm 71:64   active ready running
+[prdd1slzswobj01] out: [1mmpathbz (35000c500584f0557) dm-74 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:80:0  sdbz 68:208  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:140:0 sded 128:80  active ready running
+[prdd1slzswobj01] out: [1mmpathau (35000c500584f7403) dm-45 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:49:0  sdav 66:240  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:167:0 sdfd 129:240 active ready running
+[prdd1slzswobj01] out: [1mmpathbm (35000c500584ff943) dm-68 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:69:0  sdbo 68:32   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:156:0 sdet 129:80  active ready running
+[prdd1slzswobj01] out: [1mmpathah (35000c50058182cf7) dm-37 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:35:0  sdai 66:32   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:95:0  sdcm 69:160  active ready running
+[prdd1slzswobj01] out: [1mmpatho (35000c5005817d60f) dm-22 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:20:0  sdu  65:64   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:110:0 sdda 70:128  active ready running
+[prdd1slzswobj01] out: [1mmpathce (35000c500584ff903) dm-84 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:86:0  sdcf 69:48   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:146:0 sdej 128:176 active ready running
+[prdd1slzswobj01] out: [1mmpathb (35000c5005817580b) dm-5 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:1:0   sdb  8:16    active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:119:0 sddj 71:16   active ready running
+[prdd1slzswobj01] out: [1mmpathby (35000c500584fe403) dm-72 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:79:0  sdby 68:192  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:139:0 sdec 128:64  active ready running
+[prdd1slzswobj01] out: [1mmpathat (35000c500584ff583) dm-48 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:48:0  sdau 66:224  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:166:0 sdfc 129:224 active ready running
+[prdd1slzswobj01] out: [1mmpathbl (35000c500584f6c0b) dm-67 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:66:0  sdbl 67:240  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:154:0 sder 129:48  active ready running
+[prdd1slzswobj01] out: [1mmpathag (35000c500581782b3) dm-31 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:33:0  sdag 66:0    active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:93:0  sdck 69:128  active ready running
+[prdd1slzswobj01] out: [1mmpathn (35000c5005817963b) dm-16 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:16:0  sdq  65:0    active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:106:0 sdcw 70:64   active ready running
+[prdd1slzswobj01] out: [1mmpathcd (35000c500584ff6e7) dm-83 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:84:0  sdcd 69:16   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:144:0 sdeh 128:144 active ready running
+[prdd1slzswobj01] out: [1mmpathbx (35000c500584f7dc3) dm-80 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:78:0  sdbx 68:176  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:138:0 sdeb 128:48  active ready running
+[prdd1slzswobj01] out: [1mmpathas (35000c500584f8193) dm-47 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:46:0  sdas 66:192  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:164:0 sdfa 129:192 active ready running
+[prdd1slzswobj01] out: [1mmpathz (35000c500581754cb) dm-26 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:25:0  sdz  65:144  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:115:0 sddf 70:208  active ready running
+[prdd1slzswobj01] out: [1mmpathbk (35000c500584ff127) dm-62 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:65:0  sdbk 67:224  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:153:0 sdeq 129:32  active ready running
+[prdd1slzswobj01] out: [1mmpathaf (35000c50058175613) dm-32 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:28:0  sdac 65:192  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:118:0 sddi 71:0    active ready running
+[prdd1slzswobj01] out: [1mmpathm (35000c500581816bf) dm-14 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:14:0  sdo  8:224   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:132:0 sddw 71:224  active ready running
+[prdd1slzswobj01] out: [1mmpathcc (35000c500584ffb43) dm-79 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:83:0  sdcc 69:0    active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:143:0 sdeg 128:128 active ready running
+[prdd1slzswobj01] out: [1mmpathbw (35000c500584f6607) dm-65 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:77:0  sdbw 68:160  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:137:0 sdea 128:32  active ready running
+[prdd1slzswobj01] out: [1mmpathar (35000c500584fe37b) dm-43 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:45:0  sdar 66:176  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:163:0 sdez 129:176 active ready running
+[prdd1slzswobj01] out: [1mmpathy (35000c5005817a0eb) dm-24 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:26:0  sdaa 65:160  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:116:0 sddg 70:224  active ready running
+[prdd1slzswobj01] out: [1mmpathbj (35000c500584f7e9f) dm-61 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:64:0  sdbj 67:208  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:152:0 sdep 129:16  active ready running
+[prdd1slzswobj01] out: [1mmpathae (35000c50058182ddb) dm-29 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:32:0  sdaf 65:240  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:92:0  sdcj 69:112  active ready running
+[prdd1slzswobj01] out: [1mmpathl (35000c50058181be7) dm-10 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:11:0  sdl  8:176   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:129:0 sddt 71:176  active ready running
+[prdd1slzswobj01] out: [1mmpathcb (35000c500584feb47) dm-78 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:82:0  sdcb 68:240  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:142:0 sdef 128:112 active ready running
+[prdd1slzswobj01] out: [1mmpathbv (35000c500584fe803) dm-63 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:72:0  sdbr 68:80   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:160:0 sdex 129:144 active ready running
+[prdd1slzswobj01] out: [1mmpathaq (35000c5005817a207) dm-41 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:43:0  sdaq 66:160  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:103:0 sdcu 70:32   active ready running
+[prdd1slzswobj01] out: [1mmpathx (35000c50058175ec7) dm-25 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:22:0  sdw  65:96   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:112:0 sddc 70:160  active ready running
+[prdd1slzswobj01] out: [1mmpathbi (35000c500584f6a87) dm-59 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:63:0  sdbi 67:192  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:151:0 sdeo 129:0   active ready running
+[prdd1slzswobj01] out: [1mmpathad (35000c50058181283) dm-30 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:31:0  sdae 65:224  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:91:0  sdci 69:96   active ready running
+[prdd1slzswobj01] out: [1mmpathk (35000c500581813e3) dm-11 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:10:0  sdk  8:160   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:127:0 sddr 71:144  active ready running
+[prdd1slzswobj01] out: [1mmpathca (35000c500584f67cf) dm-76 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:81:0  sdca 68:224  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:141:0 sdee 128:96  active ready running
+[prdd1slzswobj01] out: [1mmpathbu (35000c500584f74eb) dm-70 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:75:0  sdbu 68:128  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:135:0 sddy 128:0   active ready running
+[prdd1slzswobj01] out: [1mmpathap (35000c5005817bca3) dm-42 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:42:0  sdap 66:144  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:102:0 sdct 70:16   active ready running
+[prdd1slzswobj01] out: [1mmpathw (35000c5005817585b) dm-18 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:23:0  sdx  65:112  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:113:0 sddd 70:176  active ready running
+[prdd1slzswobj01] out: [1mmpathbh (35000c500585f149f) dm-58 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:58:0  sdbe 67:128  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:176:0 sdfm 130:128 active ready running
+[prdd1slzswobj01] out: [1mmpathac (35000c5005817997f) dm-28 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:30:0  sdad 65:208  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:90:0  sdch 69:80   active ready running
+[prdd1slzswobj01] out: [1mmpathj (35000c5005818065b) dm-9 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:9:0   sdj  8:144   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:128:0 sdds 71:160  active ready running
+[prdd1slzswobj01] out: [1mmpathbt (35000c500585da9b3) dm-69 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:76:0  sdbv 68:144  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:136:0 sddz 128:16  active ready running
+[prdd1slzswobj01] out: [1mmpathao (35000c5005817884f) dm-40 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:41:0  sdao 66:128  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:101:0 sdcs 70:0    active ready running
+[prdd1slzswobj01] out: [1mmpathv (35000c50058182e17) dm-21 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:21:0  sdv  65:80   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:111:0 sddb 70:144  active ready running
+[prdd1slzswobj01] out: [1mmpathbg (35000c500584ff06b) dm-60 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:62:0  sdbh 67:176  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:150:0 sden 128:240 active ready running
+[prdd1slzswobj01] out: [1mmpathab (35000c50058177d7f) dm-27 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:27:0  sdab 65:176  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:117:0 sddh 70:240  active ready running
+[prdd1slzswobj01] out: [1mmpathi (35000c5005817881f) dm-2 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:2:0   sdc  8:32    active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:120:0 sddk 71:32   active ready running
+[prdd1slzswobj01] out: [1mmpathbs (35000c500584f9087) dm-77 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:73:0  sdbs 68:96   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:161:0 sdey 129:160 active ready running
+[prdd1slzswobj01] out: [1mmpathan (35000c50058178b0f) dm-39 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:40:0  sdan 66:112  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:100:0 sdcr 69:240  active ready running
+[prdd1slzswobj01] out: [1mmpathu (35000c500581828e3) dm-20 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:19:0  sdt  65:48   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:109:0 sdcz 70:112  active ready running
+[prdd1slzswobj01] out: [1mmpathbf (35000c500584f8aa7) dm-56 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:60:0  sdbf 67:144  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:148:0 sdel 128:208 active ready running
+[prdd1slzswobj01] out: [1mmpathaa (35000c50058175663) dm-23 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:24:0  sdy  65:128  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:114:0 sdde 70:192  active ready running
+[prdd1slzswobj01] out: [1mmpathh (35000c5005817cb9b) dm-8 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:7:0   sdh  8:112   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:125:0 sddp 71:112  active ready running
+[prdd1slzswobj01] out: [1mmpathaz (35000c500584ff8e3) dm-51 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:53:0  sdaz 67:48   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:171:0 sdfh 130:48  active ready running
+[prdd1slzswobj01] out: [1mmpathbr (35000c500584f83eb) dm-75 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:74:0  sdbt 68:112  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:134:0 sddx 71:240  active ready running
+[prdd1slzswobj01] out: [1mmpatham (35000c500581762cf) dm-38 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:39:0  sdam 66:96   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:99:0  sdcq 69:224  active ready running
+[prdd1slzswobj01] out: [1mmpatht (35000c5005817869b) dm-17 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:18:0  sds  65:32   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:108:0 sdcy 70:96   active ready running
+[prdd1slzswobj01] out: [1mmpathg (35000c500581775f3) dm-85 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:8:0   sdi  8:128   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:126:0 sddq 71:128  active ready running
+[prdd1slzswobj01] out: [1mmpathbe (35000c500584fe937) dm-57 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:61:0  sdbg 67:160  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:149:0 sdem 128:224 active ready running
+[prdd1slzswobj01] out: [1mmpathay (35000c500584fe883) dm-50 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:52:0  sday 67:32   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:170:0 sdfg 130:32  active ready running
+[prdd1slzswobj01] out: [1mmpathbq (35000c500584fe6e3) dm-64 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:70:0  sdbp 68:48   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:158:0 sdev 129:112 active ready running
+[prdd1slzswobj01] out: [1mmpathal (35000c50058177867) dm-36 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:38:0  sdal 66:80   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:98:0  sdcp 69:208  active ready running
+[prdd1slzswobj01] out: [1mmpaths (35000c500581817b7) dm-15 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:15:0  sdp  8:240   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:105:0 sdcv 70:48   active ready running
+[prdd1slzswobj01] out: [1mmpathbd (35000c500584f7e37) dm-54 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:57:0  sdbd 67:112  active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:175:0 sdfl 130:112 active ready running
+[prdd1slzswobj01] out: [1mmpathf (35000c50058178567) dm-7 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:6:0   sdg  8:96    active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:124:0 sddo 71:96   active ready running
+[prdd1slzswobj01] out: [1mmpathax (35000c500584fe8ab) dm-46 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj01] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj01] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj01] out: | `- 7:0:51:0  sdax 67:16   active ready running
+[prdd1slzswobj01] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj01] out:   `- 7:0:169:0 sdff 130:16  active ready running
+[prdd1slzswobj01] out: 
+
+[prdd1slzswobj02] Executing task 'multipath'
+[prdd1slzswobj02] run: multipath -ll
+[prdd1slzswobj02] out: [1mmpathbp (35000c50058360b37) dm-70 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:70:0  sdbp 68:48   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:158:0 sdev 129:112 active ready running
+[prdd1slzswobj02] out: [1mmpathak (35000c5005818135b) dm-37 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:37:0  sdak 66:64   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:97:0  sdco 69:192  active ready running
+[prdd1slzswobj02] out: [1mmpathr (35000c5005817f06f) dm-18 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:17:0  sdr  65:16   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:107:0 sdcx 70:80   active ready running
+[prdd1slzswobj02] out: [1mmpathbc (35000c50058364707) dm-52 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:54:0  sdba 67:64   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:172:0 sdfi 130:64  active ready running
+[prdd1slzswobj02] out: [1mmpathe (35000c5005817a0c7) dm-4 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:4:0   sde  8:64    active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:122:0 sddm 71:64   active ready running
+[prdd1slzswobj02] out: [1mmpathaw (35000c50058539d17) dm-68 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:51:0  sdax 67:16   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:169:0 sdff 130:16  active ready running
+[prdd1slzswobj02] out: [1mmpathbo (35000c50058539b2b) dm-66 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:69:0  sdbo 68:32   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:156:0 sdet 129:80  active ready running
+[prdd1slzswobj02] out: [1mmpathaj (35000c500581831af) dm-36 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:36:0  sdaj 66:48   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:96:0  sdcn 69:176  active ready running
+[prdd1slzswobj02] out: [1mmpathq (35000c5005817eac3) dm-17 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:16:0  sdq  65:0    active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:106:0 sdcw 70:64   active ready running
+[prdd1slzswobj02] out: [1mmpathcg (35000c50058362dd3) dm-85 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:87:0  sdcg 69:64   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:147:0 sdek 128:192 active ready running
+[prdd1slzswobj02] out: [1mmpathbb (35000c50058366a1f) dm-55 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:56:0  sdbc 67:96   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:174:0 sdfk 130:96  active ready running
+[prdd1slzswobj02] out: [1mmpathd (35000c5005817d883) dm-5 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:3:0   sdd  8:48    active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:121:0 sddl 71:48   active ready running
+[prdd1slzswobj02] out: [1mmpathav (35000c500585391e3) dm-48 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:49:0  sdav 66:240  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:167:0 sdfd 129:240 active ready running
+[prdd1slzswobj02] out: [1mmpathbn (35000c5005852e07f) dm-65 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:68:0  sdbn 68:16   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:157:0 sdeu 129:96  active ready running
+[prdd1slzswobj02] out: [1mmpathai (35000c5005817d0f7) dm-35 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:35:0  sdai 66:32   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:95:0  sdcm 69:160  active ready running
+[prdd1slzswobj02] out: [1mmpathp (35000c5005818071f) dm-16 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:15:0  sdp  8:240   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:105:0 sdcv 70:48   active ready running
+[prdd1slzswobj02] out: [1mmpathcf (35000c50058362fa3) dm-84 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:86:0  sdcf 69:48   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:146:0 sdej 128:176 active ready running
+[prdd1slzswobj02] out: [1mmpathba (35000c5005835f6a7) dm-53 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:55:0  sdbb 67:80   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:173:0 sdfj 130:80  active ready running
+[prdd1slzswobj02] out: [1mmpathc (35000c5005817b8af) dm-3 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:2:0   sdc  8:32    active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:120:0 sddk 71:32   active ready running
+[prdd1slzswobj02] out: [1mmpathbz (35000c500585f435b) dm-75 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:80:0  sdbz 68:208  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:140:0 sded 128:80  active ready running
+[prdd1slzswobj02] out: [1mmpathau (35000c50058362793) dm-47 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:48:0  sdau 66:224  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:166:0 sdfc 129:224 active ready running
+[prdd1slzswobj02] out: [1mmpathbm (35000c50058364a6f) dm-64 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:67:0  sdbm 68:0    active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:155:0 sdes 129:64  active ready running
+[prdd1slzswobj02] out: [1mmpathah (35000c50058182b1f) dm-34 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:34:0  sdah 66:16   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:94:0  sdcl 69:144  active ready running
+[prdd1slzswobj02] out: [1mmpatho (35000c5005817e56f) dm-15 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:14:0  sdo  8:224   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:132:0 sddw 71:224  active ready running
+[prdd1slzswobj02] out: [1mmpathce (35000c500583627d7) dm-83 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:85:0  sdce 69:32   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:145:0 sdei 128:160 active ready running
+[prdd1slzswobj02] out: [1mmpathb (35000c50058182fa7) dm-2 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:1:0   sdb  8:16    active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:119:0 sddj 71:16   active ready running
+[prdd1slzswobj02] out: [1mmpathby (35000c50058539bc7) dm-80 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:79:0  sdby 68:192  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:139:0 sdec 128:64  active ready running
+[prdd1slzswobj02] out: [1mmpathat (35000c500583621ef) dm-46 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:47:0  sdat 66:208  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:165:0 sdfb 129:208 active ready running
+[prdd1slzswobj02] out: [1mmpathbl (35000c500583628bf) dm-63 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:66:0  sdbl 67:240  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:154:0 sder 129:48  active ready running
+[prdd1slzswobj02] out: [1mmpathag (35000c50058179647) dm-33 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:33:0  sdag 66:0    active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:93:0  sdck 69:128  active ready running
+[prdd1slzswobj02] out: [1mmpathn (35000c50058179dcf) dm-13 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:12:0  sdm  8:192   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:130:0 sddu 71:192  active ready running
+[prdd1slzswobj02] out: [1mmpathcd (35000c50058362d33) dm-82 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:84:0  sdcd 69:16   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:144:0 sdeh 128:144 active ready running
+[prdd1slzswobj02] out: [1mmpathbx (35000c500585f443b) dm-72 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:78:0  sdbx 68:176  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:138:0 sdeb 128:48  active ready running
+[prdd1slzswobj02] out: [1mmpathas (35000c50058538b8b) dm-44 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:46:0  sdas 66:192  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:164:0 sdfa 129:192 active ready running
+[prdd1slzswobj02] out: [1mmpathz (35000c50058183a2b) dm-26 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:25:0  sdz  65:144  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:115:0 sddf 70:208  active ready running
+[prdd1slzswobj02] out: [1mmpathbk (35000c500585f50bb) dm-62 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:65:0  sdbk 67:224  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:153:0 sdeq 129:32  active ready running
+[prdd1slzswobj02] out: [1mmpathaf (35000c50058183757) dm-32 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:32:0  sdaf 65:240  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:92:0  sdcj 69:112  active ready running
+[prdd1slzswobj02] out: [1mmpathm (35000c5005817a1cb) dm-14 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:13:0  sdn  8:208   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:131:0 sddv 71:208  active ready running
+[prdd1slzswobj02] out: [1mmpathcc (35000c500585f2d1b) dm-81 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:83:0  sdcc 69:0    active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:143:0 sdeg 128:128 active ready running
+[prdd1slzswobj02] out: [1mmpathbw (35000c5005853588b) dm-79 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:76:0  sdbv 68:144  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:136:0 sddz 128:16  active ready running
+[prdd1slzswobj02] out: [1mmpathar (35000c50058364bd7) dm-45 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:45:0  sdar 66:176  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:163:0 sdez 129:176 active ready running
+[prdd1slzswobj02] out: [1mmpathy (35000c5005817e95f) dm-25 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:24:0  sdy  65:128  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:114:0 sdde 70:192  active ready running
+[prdd1slzswobj02] out: [1mmpathbj (35000c500585f2ad3) dm-61 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:64:0  sdbj 67:208  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:152:0 sdep 129:16  active ready running
+[prdd1slzswobj02] out: [1mmpathae (35000c500581801e3) dm-30 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:30:0  sdad 65:208  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:90:0  sdch 69:80   active ready running
+[prdd1slzswobj02] out: [1mmpathl (35000c5005817ff2f) dm-11 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:10:0  sdk  8:160   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:127:0 sddr 71:144  active ready running
+[prdd1slzswobj02] out: [1mmpathcb (35000c500583654f3) dm-78 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:82:0  sdcb 68:240  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:142:0 sdef 128:112 active ready running
+[prdd1slzswobj02] out: [1mmpathbv (35000c50058535b2f) dm-77 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:77:0  sdbw 68:160  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:137:0 sdea 128:32  active ready running
+[prdd1slzswobj02] out: [1mmpathaq (35000c5005817edbb) dm-40 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:41:0  sdao 66:128  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:101:0 sdcs 70:0    active ready running
+[prdd1slzswobj02] out: [1mmpathx (35000c5005817db1f) dm-23 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:22:0  sdw  65:96   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:112:0 sddc 70:160  active ready running
+[prdd1slzswobj02] out: [1mmpathbi (35000c500585f5f2b) dm-59 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:62:0  sdbh 67:176  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:150:0 sden 128:240 active ready running
+[prdd1slzswobj02] out: [1mmpathad (35000c50058183d0b) dm-31 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:31:0  sdae 65:224  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:91:0  sdci 69:96   active ready running
+[prdd1slzswobj02] out: [1mmpathk (35000c5005817f8fb) dm-12 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:11:0  sdl  8:176   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:129:0 sddt 71:176  active ready running
+[prdd1slzswobj02] out: [1mmpathca (35000c500585f58e7) dm-76 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:81:0  sdca 68:224  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:141:0 sdee 128:96  active ready running
+[prdd1slzswobj02] out: [1mmpathbu (35000c500585f3e1f) dm-71 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:75:0  sdbu 68:128  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:135:0 sddy 128:0   active ready running
+[prdd1slzswobj02] out: [1mmpathap (35000c5005817662f) dm-42 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:43:0  sdaq 66:160  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:103:0 sdcu 70:32   active ready running
+[prdd1slzswobj02] out: [1mmpathw (35000c5005817d1a7) dm-24 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:23:0  sdx  65:112  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:113:0 sddd 70:176  active ready running
+[prdd1slzswobj02] out: [1mmpathbh (35000c50058364a87) dm-60 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:63:0  sdbi 67:192  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:151:0 sdeo 129:0   active ready running
+[prdd1slzswobj02] out: [1mmpathac (35000c5005817905b) dm-29 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:28:0  sdac 65:192  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:118:0 sddi 71:0    active ready running
+[prdd1slzswobj02] out: [1mmpathj (35000c50058178a5b) dm-10 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:9:0   sdj  8:144   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:128:0 sdds 71:160  active ready running
+[prdd1slzswobj02] out: [1mmpathbt (35000c500585f51e7) dm-67 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:74:0  sdbt 68:112  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:134:0 sddx 71:240  active ready running
+[prdd1slzswobj02] out: [1mmpathao (35000c500581809e7) dm-41 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:42:0  sdap 66:144  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:102:0 sdct 70:16   active ready running
+[prdd1slzswobj02] out: [1mmpathv (35000c5005817ec83) dm-22 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:21:0  sdv  65:80   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:111:0 sddb 70:144  active ready running
+[prdd1slzswobj02] out: [1mmpathbg (35000c500585f1b5f) dm-58 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:61:0  sdbg 67:160  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:149:0 sdem 128:224 active ready running
+[prdd1slzswobj02] out: [1mmpathab (35000c500581790a3) dm-28 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:27:0  sdab 65:176  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:117:0 sddh 70:240  active ready running
+[prdd1slzswobj02] out: [1mmpathi (35000c5005817f1df) dm-9 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:8:0   sdi  8:128   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:126:0 sddq 71:128  active ready running
+[prdd1slzswobj02] out: [1mmpathbs (35000c50058535b4f) dm-69 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:73:0  sdbs 68:96   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:161:0 sdey 129:160 active ready running
+[prdd1slzswobj02] out: [1mmpathan (35000c5005817d2ef) dm-39 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:40:0  sdan 66:112  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:100:0 sdcr 69:240  active ready running
+[prdd1slzswobj02] out: [1mmpathu (35000c5005817df7b) dm-21 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:20:0  sdu  65:64   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:110:0 sdda 70:128  active ready running
+[prdd1slzswobj02] out: [1mmpathbf (35000c50058539b37) dm-57 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:60:0  sdbf 67:144  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:148:0 sdel 128:208 active ready running
+[prdd1slzswobj02] out: [1mmpathaa (35000c5005817cd1f) dm-27 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:26:0  sdaa 65:160  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:116:0 sddg 70:224  active ready running
+[prdd1slzswobj02] out: [1mmpathh (35000c5005817d2eb) dm-6 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:7:0   sdh  8:112   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:125:0 sddp 71:112  active ready running
+[prdd1slzswobj02] out: [1mmpathaz (35000c500585395ab) dm-49 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:50:0  sdaw 67:0    active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:168:0 sdfe 130:0   active ready running
+[prdd1slzswobj02] out: [1mmpathbr (35000c500583628e7) dm-74 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:72:0  sdbr 68:80   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:160:0 sdex 129:144 active ready running
+[prdd1slzswobj02] out: [1mmpatham (35000c50058176e17) dm-43 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:39:0  sdam 66:96   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:99:0  sdcq 69:224  active ready running
+[prdd1slzswobj02] out: [1mmpatht (35000c5005818387f) dm-20 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:19:0  sdt  65:48   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:109:0 sdcz 70:112  active ready running
+[prdd1slzswobj02] out: [1mmpathbe (35000c50058366593) dm-54 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:57:0  sdbd 67:112  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:175:0 sdfl 130:112 active ready running
+[prdd1slzswobj02] out: [1mmpathg (35000c5005817533f) dm-8 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:6:0   sdg  8:96    active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:124:0 sddo 71:96   active ready running
+[prdd1slzswobj02] out: [1mmpathay (35000c500583649ef) dm-51 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:53:0  sdaz 67:48   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:171:0 sdfh 130:48  active ready running
+[prdd1slzswobj02] out: [1mmpathbq (35000c500583646bf) dm-73 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:71:0  sdbq 68:64   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:159:0 sdew 129:128 active ready running
+[prdd1slzswobj02] out: [1mmpathal (35000c5005817a9f3) dm-38 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:38:0  sdal 66:80   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:98:0  sdcp 69:208  active ready running
+[prdd1slzswobj02] out: [1mmpaths (35000c50058182de3) dm-19 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:18:0  sds  65:32   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:108:0 sdcy 70:96   active ready running
+[prdd1slzswobj02] out: [1mmpathbd (35000c50058363ebf) dm-56 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:58:0  sdbe 67:128  active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:176:0 sdfm 130:128 active ready running
+[prdd1slzswobj02] out: [1mmpathf (35000c50058179a7b) dm-7 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:5:0   sdf  8:80    active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:123:0 sddn 71:80   active ready running
+[prdd1slzswobj02] out: [1mmpathax (35000c5005852d9c7) dm-50 SEAGATE,ST4000NM0023[0m
+[prdd1slzswobj02] out: size=3.6T features='0' hwhandler='0' wp=rw
+[prdd1slzswobj02] out: |-+- policy='round-robin 0' prio=1 status=active
+[prdd1slzswobj02] out: | `- 7:0:52:0  sday 67:32   active ready running
+[prdd1slzswobj02] out: `-+- policy='round-robin 0' prio=1 status=enabled
+[prdd1slzswobj02] out:   `- 7:0:170:0 sdfg 130:32  active ready running
+[prdd1slzswobj02] out: 
+
+
+Done.
+Disconnecting from prdd1slzswobj02... done.
+Disconnecting from prdd1slzswobj01... done.
