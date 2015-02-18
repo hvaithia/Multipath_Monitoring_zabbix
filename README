@@ -1,0 +1,21 @@
+README
+------
+
+The scripts and zabbix templates are to do multipath monitoring in Zabbix
+
+I have used fabric to get the output of multipath command from different hosts (host01, host02 in my script)
+
+Modify the hostnames, User and Password in fabfile.py before using the project
+
+These scripts must be placed in "externalscripts" directory in zabbix as defined in zabbix_server.conf
+
+multipath.py needs to be executed by zabbix (It needs execute permissions for zabbix user at least minimally)
+
+I run the fabfile.py multipath as a cron (This can be run from zabbix as well but I chose cron). Interval is 10 mins once
+
+externalscripts]# crontab -l
+*/10 * * * * /usr/bin/fab -f /usr/lib/zabbix/externalscripts/fabfile.py multipath
+
+The zabbix template must be imported and attached to the zabbix server for the checks to be implemented (straighforward).
+
+I will try to upload some snapshots if possible from the zabbix UI
